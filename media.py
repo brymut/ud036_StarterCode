@@ -3,7 +3,6 @@ class Movie:
      Definition of the movie object,
       holding all the required information about a movie
     """
-    VALID_RATINGS = ["G", "PG", "PG-13", "R"]
 
     def __init__(self, movie_title, movie_storyline, poster_image,
                  trailer_youtube):
